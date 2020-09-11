@@ -1,0 +1,108 @@
+#ico{
+	position: absolute;
+	top: 0;
+	margin: 10px 0px 0px 10px;
+	color: white;
+}
+#ico2{
+	position: absolute;
+	top: 0;
+	margin: 10px 20px 0px 0px;
+	color: white;
+	right: 0;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+#primero .icono{
+display: flex;
+	
+	flex-direction: row;
+	display: inline;
+	color: grey;
+
+	
+	}
+	#hola{
+		border: 1px solid red;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: flex-end;
+	}
+body .icono{
+	flex-direction: row;
+	display: flex;
+	align-content: flex-end;
+	justify-content: flex-end;
+}
+#segundo>.boton{
+justify-content: flex-end;
+align-items: flex-end;
+display: flex;
+
+}
+.icono{
+	text-align: right;
+	right: 0;
+	margin: 5px;
+}
+h2,.icono{
+	display: inline-block;
+	vertical-align: top
+}
+
+
+
+#segundo{
+
+
+
+
+}
+h1{
+	font-size: 7em;
+	color: grey;
+}
+h2{
+	font-size: 2em;
+	color: grey;
+}
+
+#boton{
+	width: 650px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 50px;
+	border-radius: 40px;
+	background-color:#C35353;
+	vertical-align: bottom;
+	align-items: center;
+	margin: 12%;
+	border: 1px solid black;
+
+}
+
+@media screen and (max-width:700px) and (orientation: landscape){
+	.primero .segundo{
+		width: 40%;
+		height: 50%}
+		.primero{
+			text-align: left;
+			}
+			.segundo{
+				text-align: right;
+				}}
+@media screen and (max-width:412px){
+.general{
+		width: 100%;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		height: auto;
+
+	}
+	}
+	
